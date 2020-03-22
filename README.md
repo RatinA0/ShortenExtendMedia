@@ -10,7 +10,6 @@ Decreasing the length of the selected objects (Shorten)
 Increase the length of the selected objects (Extend)  
 (!) If you change the duration like this, the Composite/FX Keyframes will NOT move.
 
-
 ### Running the script:  
 put the file in either  
 ...\vegas install folder\Script Menu  
