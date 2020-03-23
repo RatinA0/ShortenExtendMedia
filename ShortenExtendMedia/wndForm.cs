@@ -115,11 +115,8 @@ namespace ShortenExtendMedia
 							trackEvent.Length = Timecode.FromFrames(trackEvent.Length.FrameCount + ExtendLength);
 							break;
 						case "Seconds":
-							if (trackEvent.Length >= Timecode.FromSeconds(ExtendLength))
-							{
-								// extend e.g.: 600 frame / 60 fps (-> 10sec) + x sec
-								trackEvent.Length = Timecode.FromSeconds(trackEvent.Length.FrameCount / trackEvent.Length.FrameRate + ExtendLength);
-							}
+							// extend e.g.: 600 frame / 60 fps (-> 10sec) + x sec
+							trackEvent.Length = Timecode.FromSeconds(trackEvent.Length.FrameCount / trackEvent.Length.FrameRate + ExtendLength);
 							break;
 						default:
 							// Default is "Frames".
