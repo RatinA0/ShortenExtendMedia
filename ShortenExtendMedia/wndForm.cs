@@ -22,6 +22,7 @@ namespace ShortenExtendMedia
 		{
 			InitializeComponent();
 			FormBorderStyle = FormBorderStyle.FixedSingle;
+			nudShorten.Select();
 		}
 
 		private void btnRun_Click(object sender, EventArgs e)

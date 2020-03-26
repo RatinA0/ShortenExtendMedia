@@ -50,7 +50,7 @@
 			this.btnRun.Location = new System.Drawing.Point(11, 134);
 			this.btnRun.Name = "btnRun";
 			this.btnRun.Size = new System.Drawing.Size(198, 30);
-			this.btnRun.TabIndex = 0;
+			this.btnRun.TabIndex = 3;
 			this.btnRun.Text = "Run";
 			this.btnRun.UseVisualStyleBackColor = true;
 			this.btnRun.Click += new System.EventHandler(this.btnRun_Click);
@@ -64,7 +64,7 @@
 			this.gbxShorten.Location = new System.Drawing.Point(12, 12);
 			this.gbxShorten.Name = "gbxShorten";
 			this.gbxShorten.Size = new System.Drawing.Size(277, 55);
-			this.gbxShorten.TabIndex = 1;
+			this.gbxShorten.TabIndex = 0;
 			this.gbxShorten.TabStop = false;
 			this.gbxShorten.Text = "Shorten settings";
 			// 
@@ -79,7 +79,7 @@
 			this.cbShortenTimecode.Margin = new System.Windows.Forms.Padding(4);
 			this.cbShortenTimecode.Name = "cbShortenTimecode";
 			this.cbShortenTimecode.Size = new System.Drawing.Size(98, 24);
-			this.cbShortenTimecode.TabIndex = 13;
+			this.cbShortenTimecode.TabIndex = 1;
 			this.cbShortenTimecode.Text = "Frames";
 			// 
 			// lblShortenLength
@@ -89,7 +89,7 @@
 			this.lblShortenLength.Location = new System.Drawing.Point(11, 20);
 			this.lblShortenLength.Name = "lblShortenLength";
 			this.lblShortenLength.Size = new System.Drawing.Size(56, 17);
-			this.lblShortenLength.TabIndex = 2;
+			this.lblShortenLength.TabIndex = 0;
 			this.lblShortenLength.Text = "Length:";
 			// 
 			// nudShorten
@@ -98,14 +98,14 @@
 			this.nudShorten.Location = new System.Drawing.Point(73, 18);
 			this.nudShorten.Name = "nudShorten";
 			this.nudShorten.Size = new System.Drawing.Size(86, 23);
-			this.nudShorten.TabIndex = 1;
+			this.nudShorten.TabIndex = 0;
 			// 
 			// btnHelp
 			// 
 			this.btnHelp.Location = new System.Drawing.Point(215, 134);
 			this.btnHelp.Name = "btnHelp";
 			this.btnHelp.Size = new System.Drawing.Size(75, 30);
-			this.btnHelp.TabIndex = 2;
+			this.btnHelp.TabIndex = 4;
 			this.btnHelp.Text = "help";
 			this.btnHelp.UseVisualStyleBackColor = true;
 			this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
@@ -119,7 +119,7 @@
 			this.gbxExtend.Location = new System.Drawing.Point(12, 73);
 			this.gbxExtend.Name = "gbxExtend";
 			this.gbxExtend.Size = new System.Drawing.Size(277, 55);
-			this.gbxExtend.TabIndex = 1;
+			this.gbxExtend.TabIndex = 2;
 			this.gbxExtend.TabStop = false;
 			this.gbxExtend.Text = "Extend settings";
 			// 
@@ -134,7 +134,7 @@
 			this.cbExtendTimecode.Margin = new System.Windows.Forms.Padding(4);
 			this.cbExtendTimecode.Name = "cbExtendTimecode";
 			this.cbExtendTimecode.Size = new System.Drawing.Size(98, 24);
-			this.cbExtendTimecode.TabIndex = 13;
+			this.cbExtendTimecode.TabIndex = 1;
 			this.cbExtendTimecode.Text = "Frames";
 			// 
 			// lblExtendLength
@@ -144,7 +144,7 @@
 			this.lblExtendLength.Location = new System.Drawing.Point(11, 20);
 			this.lblExtendLength.Name = "lblExtendLength";
 			this.lblExtendLength.Size = new System.Drawing.Size(56, 17);
-			this.lblExtendLength.TabIndex = 2;
+			this.lblExtendLength.TabIndex = 0;
 			this.lblExtendLength.Text = "Length:";
 			// 
 			// nudExtend
@@ -153,7 +153,7 @@
 			this.nudExtend.Location = new System.Drawing.Point(73, 18);
 			this.nudExtend.Name = "nudExtend";
 			this.nudExtend.Size = new System.Drawing.Size(86, 23);
-			this.nudExtend.TabIndex = 1;
+			this.nudExtend.TabIndex = 0;
 			// 
 			// wndForm
 			// 
